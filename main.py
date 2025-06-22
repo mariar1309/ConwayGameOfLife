@@ -23,3 +23,5 @@ def addGlider(i, j, grid):
     grid[i:i+3, j:j+3]=glider
 grid = np.zeros(10*10).reshape(10, 10)
 addGlider(1, 1, grid)
+
+#check
